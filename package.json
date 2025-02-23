@@ -1,0 +1,41 @@
+{
+  "name": "swiggy_app",
+  "version": "1.0.0",
+  "description": "Swiggy App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshan3338/Swiggy_App.git"
+  },
+  "author": "Darshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshan3338/Swiggy_App/issues"
+  },
+  "homepage": "https://github.com/Darshan3338/Swiggy_App#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.29.0"
+  }
+}

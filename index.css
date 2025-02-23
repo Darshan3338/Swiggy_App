@@ -1,0 +1,186 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo img {
+  width: 250px;
+}
+.nav-list {
+  display: flex;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-list li {
+  list-style-type: none;
+  padding: 5px 30px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: red;
+}
+
+.RestroCards-Container{
+    border: 1px solid orangered;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0a0a23;
+}
+.Restro-cards{
+    width: 250px;    
+    height: 550px;
+    padding: 10px;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;    
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin: 30px 20px;
+    color: white;    
+    box-shadow: 5px 5px 6px rgba(231, 155, 155, 0.5);
+}
+.Restro-img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid wheat;
+}
+.Restro-cards:hover{
+    transform: scale(1.05);
+    background-color: rgb(206, 0, 0);
+    border: 2px solid white;
+}
+.restro-text{
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 28px;
+}
+.restro-text:hover{
+    border: 2px solid orange;
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.shimmer-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.shimmer{
+  width:200px;
+  height:300px;
+  background-color:red;
+  padding:20px;
+  margin:30px 20px;
+  border-radius:20px;
+  background-color:#f0f0f0;
+}
+.btn2{
+  padding: 0px 20px;
+  border: none;
+  margin: 2px;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn2:hover{
+  background-color: green;
+  color: white;
+}
+.input-txt{
+  width:400px;
+  padding:8px;
+  margin-left:10px;
+}
+.search{
+  display:flex;
+}
+
+.menu-ul{
+  list-style-type: disc;
+  padding: 5px 20px;
+  margin: 10px;
+}
+.ul-menu{
+  list-style-type:disc;
+  padding: 20px;
+  margin: 10px;
+}
+.user{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+.promoted{
+  position: absolute;
+  margin: 20px 10px;
+  text-align: center;
+  background-color: rgb(37, 36, 36);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.menu{
+  text-align: center;
+  margin: 10px 10px;
+}
+.menu h3{
+  padding: 20px 0;
+}
+.accordion{
+  width: 50%;
+  background-color: skyblue;
+  padding: 10px;
+  margin:20px auto;
+  justify-content: space-between;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.List-Add{
+  position: absolute;
+  margin: 75px 30px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+.List-Add button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+.cart{
+  text-align: center;
+  padding: 50px;
+}
+.cart-btn{
+  margin: 10px auto;
+  padding:10px 20px;
+  background-color: orange;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
